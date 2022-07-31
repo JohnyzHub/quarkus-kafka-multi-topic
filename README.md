@@ -10,7 +10,7 @@ zookeeper-server-start.bat %kafka_home%\config\zookeeper.properties
 kafka-server-start.bat %kafka_home%\config\server.properties
 ```
 
-Start the quarkus application in dev mode using:
+Start the quarkus application in dev mode:
 open three cmd windows and run the following commands in separate windows
 and navigate to the base folder of the project ie. web-message-system
 ```shell script
