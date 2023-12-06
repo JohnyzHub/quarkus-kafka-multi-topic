@@ -12,7 +12,7 @@ kafka-server-start.bat %kafka_home%\config\server.properties
 
 Start the quarkus application in dev mode:
 open three cmd windows and run the following commands in separate windows
-and navigate to the base folder of the project ie. web-message-system
+and navigate to the root folder of the project.
 ```shell script
 mvn clean install -DskipTests -U -f message-producer quarkus:dev
 mvn clean install -DskipTests -U -f message-processor quarkus:dev
